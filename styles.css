@@ -1,8 +1,10 @@
 
 div#header-bar {
   color: #ffffff;
-  background-color: #6464c8;
+  background-color: #4287f5;
   position: fixed;
   top: 0px;
   width: 100%;
+  padding: 10px;
+  margin: 5px;
 }
