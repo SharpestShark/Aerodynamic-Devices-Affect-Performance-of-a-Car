@@ -1,4 +1,7 @@
 
-#header-bar {
-  background-color: #001a5e
+div#header-bar {
+  background-color: #001a5e;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
