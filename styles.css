@@ -3,7 +3,7 @@ div#header-bar {
   color: #ffffff;
   background-color: #4287f5;
   display: block;
-  position: fixed;
+  position: sticky;
   top: 0px;
   width: 100%;
   padding: 10px;
