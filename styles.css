@@ -3,6 +3,10 @@ body {
   color: #3b3b3b;
 }
 
+img#logo-img {
+  width: 150px;
+}
+
 div#header-bar {
   color: #000000;
   background-color: #ffffff;
