@@ -2,6 +2,7 @@
 div#header-bar {
   color: #ffffff;
   background-color: #4287f5;
+  display: block;
   position: fixed;
   top: 0px;
   width: 100%;
