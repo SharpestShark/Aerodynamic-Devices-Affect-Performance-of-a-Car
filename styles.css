@@ -14,7 +14,7 @@ div#header-bar {
   position: sticky;
   top: 0px;
   left: 0px;
-  width: fit;
+  width: fit-content;
   max-width: 100%;
   padding: 10px;
   margin: 5px;
