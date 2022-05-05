@@ -1,7 +1,11 @@
+body {
+  background-color: #cccccc;
+  color: #3b3b3b;
+}
 
 div#header-bar {
-  color: #ffffff;
-  background-color: #4287f5;
+  color: #000000;
+  background-color: #ffffff;
   display: block;
   position: sticky;
   top: 0px;
