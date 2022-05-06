@@ -10,8 +10,8 @@ h1 {
 img#logo-img {
   padding: 10px;
   width: 150px;
-  position: fixed;
-  top: 15px;
+  position: sticky;
+  top: 60px;
 }
 
 div#header-bar {
@@ -27,7 +27,7 @@ div#header-bar {
   margin: 5px;
   border: 1px #fafafa;
   border-radius: 5px;
-  height: 170px;
+  height: max-content;
 }
 
 div#paragraph {
