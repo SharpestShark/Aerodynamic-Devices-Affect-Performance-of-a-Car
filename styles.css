@@ -2,28 +2,35 @@ body {
   background-color: #fafafa;
   color: #3b3b3b;
 }
+
 h1 {
   display: inline-flex;
-  font-size: 2.5vw !important;
+  font-size: 2vw !important;
   font-size: 18px;
 }
+
 img#logo-img {
   padding: 10px;
-  width: 150px;
+  width: 20vw;
   position: sticky;
   top: 60px;
 }
 
 div#header-bar {
+  background-image: url(logo.jpg);
+  background-size: 25%;
+  background-position-x: 5px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
   color: #000000;
-  background-color: #3030307a;
+  background-color: #fff44f7a;
   display: block;
   position: sticky;
   top: 0px;
   left: 0px;
-  width: 100%;
-  max-width: 95vw;
-  padding: 10px;
+  width: inherit;
+  padding: 10px 10px 10px 27vw;
   margin: 5px;
   border: 1px #fafafa;
   border-radius: 5px;
