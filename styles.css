@@ -4,6 +4,8 @@ body {
 }
 h1 {
   display: inline-flex;
+  font-size: 60vw;
+  font-size: 22px;
 }
 img#logo-img {
   width: 150px;
