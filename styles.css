@@ -9,7 +9,7 @@ h1 {
 }
 img#logo-img {
   width: 150px;
-  display: inline-block;
+  display: fixed;
 }
 
 div#header-bar {
