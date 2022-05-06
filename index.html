@@ -10,14 +10,6 @@
 
   </head>
   <body>
-    <script>
-      document.onload = function() {
-        var value = getComputedStyle(document.getElementById('header-bar')).height.toString();
-        var numValue = value.slice(0,-2);
-        var top = "'" + Number(numValue) + "px" + "'";
-        document.getElementById('header-bar').style.top = top;
-      }
-    </script>
     <div id="header-bar">
       <img id="logo-img" src="logo.jpg" alt="Project Aero Performance">
       <h1>Aerodynamic Devices' and their Affects on the Performance of a Car</h1>
