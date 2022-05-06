@@ -7,6 +7,14 @@
     <meta name="description" content="" />
     <meta name="author" content="IcicleSavage" />
     <link href="styles.css" rel="stylesheet" />
+    <script>
+      document.onload = function() {
+        var value = getComputedStyle(document.getElementById('header-bar')).height.toString();
+        var numValue = value.slice(0,-2);
+        var top = "'" + Number(numValue) + "px" + "'";
+        document.getElementById('header-bar').style.top = top;
+      }
+    </script>
   </head>
   <body>
     <div id="header-bar">
