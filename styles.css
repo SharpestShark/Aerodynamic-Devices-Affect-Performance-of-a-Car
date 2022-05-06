@@ -8,8 +8,8 @@ h1 {
   font-size: 18px;
 }
 img#logo-img {
+  padding: 10px;
   width: 150px;
-  display: fixed;
 }
 
 div#header-bar {
