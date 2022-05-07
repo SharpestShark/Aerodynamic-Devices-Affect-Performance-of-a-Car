@@ -39,7 +39,7 @@ div#header-bar {
 
 div#paragraph {
     background-color: #f0f0f0;
-    color: #4c4c4c;
+    color: rgb(56, 56, 56);
     padding: 10px 15px 10px 15px;
     margin: 5px;
     border-radius: 15px;
@@ -48,6 +48,6 @@ div#paragraph {
 div#p2 {
     margin: 15px;
     padding: 5px;
-    color: #6a6a6a !important;
+    color: rgb(76, 76, 76) !important;
     background-color: #ededed !important;
 }
