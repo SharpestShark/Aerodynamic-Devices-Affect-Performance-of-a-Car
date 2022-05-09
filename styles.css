@@ -58,6 +58,10 @@ div#p2 {
   background-color: #ededed !important;
 }
 
+img#EclipseGen1 {
+  width: inherit;
+}
+
 footer {
   background-color: #fafafa;
   width: 100%;
