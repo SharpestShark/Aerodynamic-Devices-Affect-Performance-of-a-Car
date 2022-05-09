@@ -61,15 +61,14 @@ div#p2 {
 footer {
   background-color: #fafafa;
   width: 100%;
-  height: max-content;
+  display: flex;
+  justify-content: center;
 }
 
 footer > div#footer {
-  align-self: center;
   text-align: center;
   font-size: 16px;
   font-family: 'Arvo', serif;
-  position: absolute;
   bottom: 0px;
   width: fit-content;
   padding: 15px;
