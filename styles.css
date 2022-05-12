@@ -12,8 +12,9 @@ h1 {
 
 img#logo-img {
   padding: 10px;
-  width: 20vw;
-  position: sticky;
+  max-width: 25%;
+  height: auto;
+  position: absolute;
   top: 60px;
 }
 
