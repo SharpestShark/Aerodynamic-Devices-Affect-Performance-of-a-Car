@@ -12,6 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Bitter:wght@500&family=Coda&display=swap" rel="stylesheet">
   </head>
   <body>
+    <script>
+      if (window.scrollY > document.getElementById('header-bar').computedStyleMap('height').size) {
+        document.getElementById('header-bar').style.fontSize = '18px';
+      }
+    </script>
     <div id="header-bar">
       <h1>Aerodynamic Devices' and their Affects on the Performance of a Car</h1>
     </div>
