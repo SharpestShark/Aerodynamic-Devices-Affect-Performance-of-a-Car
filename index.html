@@ -13,10 +13,13 @@
   </head>
   <body onscroll="scrollNav()">
     <script>
+      var box = document.getElementById('header-bar');
+      var boxH = box.computedStyleMap('height').size;
+      document.getElementById('logo-img').styles.top = boxH / 2;
       function scrollNav() {
-      if (window.scrollY > document.getElementById('header-bar').computedStyleMap('height').size) {
-        document.getElementById('header-bar').style.fontSize = '18px';
-      }
+        if (window.scrollY > box.computedStyleMap('height').size) {
+          box.style.fontSize = '18px';
+        }
       }
     </script>
     <div id="header-bar">
